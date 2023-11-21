@@ -143,6 +143,10 @@ body {
   left: 50px;
 }
 
+.projects__link {
+  text-decoration: none;
+}
+
 .projects__name {
   font-size: 35px;
   letter-spacing: -1.05px;
@@ -164,6 +168,12 @@ body {
   background-color: #1bff07;
   color: #000000;
   cursor: pointer;
+}
+
+.projects__watch-all-btn:hover {
+  background-color: #000000;
+  color: #1bff07;
+  border: 1px solid #1bff07;
 }
 /* КОМПЕТЕНЦИИ */
 
@@ -279,6 +289,10 @@ body {
   line-height: 60px;
   letter-spacing: -1.8px;
   text-decoration: none;
+}
+
+.contacts__link:hover {
+  color: #1bff07;
 }
 
 .contacts__img {
